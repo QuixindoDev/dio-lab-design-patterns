@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dcd34a0-75d9-4b1c-aedf-5667650d4586" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs-padroes-projetos-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/facade/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/singleton/SingletonEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/singleton/SingletonLazy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/singleton/SingletonLazyHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/Comportamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/ComportamentoAgressivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/ComportamentoDefensivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/ComportamentoNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/Robo.java" afterDir="false" />
+    <list default="true" id="8dcd34a0-75d9-4b1c-aedf-5667650d4586" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/subsistema1/crm/CrmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subsistema2/cep/CepApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/facade/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/facade/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/singleton/SingletonEager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/singleton/SingletonEager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/singleton/SingletonLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/singleton/SingletonLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/singleton/SingletonLazyHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/singleton/SingletonLazyHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/Comportamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/strategy/Comportamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/ComportamentoAgressivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/strategy/ComportamentoAgressivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/ComportamentoDefensivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/strategy/ComportamentoDefensivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/ComportamentoNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/strategy/ComportamentoNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/one/digitalInnovation/gof/strategy/Robo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/one/digitalinnovation/gof/strategy/Robo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +35,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;QuixindoDev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/QuixindoDev/dio-lab-design-patterns.git&quot;,
+    &quot;accountId&quot;: &quot;685a58da-050d-46cb-900c-f98ae485ad8d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2lYxIh8GLXBY1cZoVLX3E1imrPM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,13 +61,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Test.executor": "Run",
+    "Application.one.digitalinnovation.gof.Test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.one.digitalinnovation.gof.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalInnovation.gof.Test" />
       <module name="labs-padroes-projetos-java" />
@@ -73,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="one.digitalinnovation.gof.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.gof.Test" />
+      <module name="labs-padroes-projetos-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovation.gof.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.one.digitalinnovation.gof.Test" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -88,6 +111,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725370734164</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1725402829559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725402829559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

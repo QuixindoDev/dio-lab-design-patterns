@@ -1,4 +1,4 @@
-package one.digitalInnovation.gof.singleton;
+package one.digitalinnovation.gof.singleton;
 
 /**
  * Singleton "apressado"

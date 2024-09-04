@@ -1,9 +1,10 @@
-package one.digitalInnovation.gof;
+package one.digitalinnovation.gof;
 
-import one.digitalInnovation.gof.singleton.SingletonEager;
-import one.digitalInnovation.gof.singleton.SingletonLazy;
-import one.digitalInnovation.gof.singleton.SingletonLazyHolder;
-import one.digitalInnovation.gof.strategy.*;
+import one.digitalinnovation.gof.facade.Facade;
+import one.digitalinnovation.gof.singleton.SingletonEager;
+import one.digitalinnovation.gof.singleton.SingletonLazy;
+import one.digitalinnovation.gof.singleton.SingletonLazyHolder;
+import one.digitalinnovation.gof.strategy.*;
 
 public class Test {
     public static void main(String[] args) {
@@ -37,5 +38,11 @@ public class Test {
         robo.setComportamento(agressivo);
         robo.mover();
         robo.mover();
+        System.out.println("=========================");
+        System.out.println();
+        System.out.println("----------------------------");
+        //Testes relacionados ao Design Pattern Facade
+        Facade facade = new Facade();
+        facade.migrarCliente("EUfrasio", "123456789");
     }
 }

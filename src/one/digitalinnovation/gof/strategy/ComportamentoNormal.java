@@ -1,4 +1,4 @@
-package one.digitalInnovation.gof.strategy;
+package one.digitalinnovation.gof.strategy;
 
 public class ComportamentoNormal implements Comportamento{
 
